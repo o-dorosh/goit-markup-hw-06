@@ -482,6 +482,7 @@ button{
 
 .footer .left-side{
     margin-right: 70px;
+    min-width: 231px;
 }
 
 .footer-address-item{
@@ -551,7 +552,6 @@ button{
 
 .footer .social-list-icon{
     fill: #FFFFFF;
-
 }
 
 .footer .social-list-link:hover,
@@ -560,7 +560,6 @@ button{
 }
 
 .subscribe-form-field{
-    margin-right: 12px;
     padding: 15px 16px;
     width: 358px;
     min-height: 50px;
@@ -577,6 +576,7 @@ button{
 }
 
 .footer .modal-btn{
+    margin-left: 8px;
     position: relative;
     text-align: left;
     padding: 10px 28px 10px 29px;
@@ -642,6 +642,11 @@ button{
     box-sizing: border-box;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.close-btn-icon:hover,
+.close-btn-icon:focus{
+    fill: var(--accent-color);
 }
 
 .is-hidden{
