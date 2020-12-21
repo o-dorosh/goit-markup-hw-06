@@ -71,6 +71,7 @@ button{
 }
 
 .modal-btn{
+    display: inline-block;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
@@ -559,6 +560,10 @@ button{
     background-color: var(--accent-color);
 }
 
+.subscribe-form{
+    display: flex;
+}
+
 .subscribe-form-field{
     padding: 15px 16px;
     width: 358px;
@@ -576,7 +581,7 @@ button{
 }
 
 .footer .modal-btn{
-    margin-left: 8px;
+    margin-left: 12px;
     position: relative;
     text-align: left;
     padding: 10px 28px 10px 29px;
